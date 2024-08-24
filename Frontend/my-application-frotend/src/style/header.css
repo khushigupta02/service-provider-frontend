@@ -1,0 +1,48 @@
+.navbar {
+    /* background-color: rgb(191, 73, 73) !important; */
+    background-color: rgb(7, 45, 101) !important;
+
+    overflow: hidden;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link {
+    font-family: "Noto Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    color: white !important;
+    
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  .modal-header .registrationHeader {
+    font-family: 'Rubik Burned', system-ui;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .login-model-header {
+    background-color: #FDBA01;
+  }

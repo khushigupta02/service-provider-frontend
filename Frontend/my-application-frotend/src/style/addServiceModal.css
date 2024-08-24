@@ -1,0 +1,19 @@
+.add-service-modal-header{
+    background-color: rgb(7, 45, 101);
+}
+.add-service-modal-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.add-service-modal-btn{
+    background-color: rgb(7, 45, 101);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+.add-service-modal-btn:hover{
+    background-color: #FDBA01;
+    color: white;
+}

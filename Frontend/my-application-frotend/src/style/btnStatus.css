@@ -1,0 +1,37 @@
+.btn-done{
+    background-color: #19AC4D;
+}
+.btn-request-sent{
+    background-color: #007bff;
+  }
+  .btn-review-done{
+    background-color: rgb(255, 127, 81);
+  }
+  .btn-rebook-request-sent{
+    background-color: rgb(241, 193, 18);
+  }
+  .btn-cancel-by-user{
+    background-color: #dc3545;
+  }
+  .btn-accepted{
+    background-color: #2E8B57;
+  }
+  .btn-scheduled{
+    background-color: #673ab7; /* Purple color for SCHEDULED status */
+  }
+  .btn-confirmed{
+    background-color: #10bafc;
+  }
+  .btn-ongoing{
+    background-color: #ffaa0d; /* Deep orange color for ONGOING status */
+  }
+  .btn-rescheduled{
+    background-color: #d308c9d3; /* Teal color for RESCHEDULED status */
+  }
+  .btn-decline-by-provider{
+    background-color: #ff4081; /* Pink color for DECLINE_BY_PROVIDER status */
+  }
+  .btn-cancelled-by-provider{
+    background-color: red;
+  }
+  

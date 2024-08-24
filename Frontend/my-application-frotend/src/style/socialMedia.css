@@ -1,0 +1,35 @@
+.facebook-icon {
+    color: #3b5998; /* Facebook blue color */
+    text-decoration: none;
+}
+
+.instagram-icon {
+    color: #f02840; /* Instagram pink color */
+    text-decoration: none;
+
+}
+
+.linkedin-icon {
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+
+}
+
+.twitter-icon {
+    color: #1da1f2; /* Twitter blue color */
+    text-decoration: none;
+
+}
+
+.email-icon{
+    color: #009155; /* Twitter blue color */
+    text-decoration: none;
+
+}
+
+.social-icontext{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    color: rgb(7, 45, 101);
+    font-weight: 600;
+}

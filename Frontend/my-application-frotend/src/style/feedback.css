@@ -1,0 +1,30 @@
+.feedbackmodel{
+    background-color: rgb(1, 37, 62);
+    color: white;
+   
+
+}
+.feedback-model-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 19px;
+}
+.btn-feedback-submit{
+    background-color: #FDBA01;
+    margin-left: -10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.btn-feedback-submit:hover{
+    cursor: pointer;
+    background-color: rgb(1, 37, 62);
+    color: white;
+}
+.thanks-response{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(1, 37, 62);
+
+
+}

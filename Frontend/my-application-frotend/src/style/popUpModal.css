@@ -1,0 +1,50 @@
+.modal-done {
+    background-color: #19AC4D;
+}
+.modal-title-booking-details {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+.modal-accepted {
+    background-color: #2E8B57;
+}
+.modal-scheduled {
+    background-color: #673ab7;
+}
+.modal-ongoing{
+    background-color: #ffaa0d; /* Deep orange color for ONGOING status */
+
+}
+.modal-confirmed{
+    background-color: #10bafc;
+
+}
+.modal-request-sent {
+    background-color: #007bff;
+}
+.modal-review-done {
+    background-color: rgb(255, 127, 81);
+}
+
+.modal-rebook-request-sent {
+    background-color: rgb(241, 193, 18);
+}
+.modal-rescheduled{
+    background-color: #d308c9d3; /* Teal color for RESCHEDULED status */
+
+}
+.modal-cancel-by-user {
+    background-color: #dc3545;
+}
+.modal-cancelled-buprovider{
+    background-color: red;
+  }
+.custom-modal {
+    max-width: 950px;
+    /* Set the maximum width */
+    max-height: 100vh;
+    /* Set the maximum height */
+}

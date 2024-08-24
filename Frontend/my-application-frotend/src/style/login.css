@@ -1,0 +1,47 @@
+label{
+    text-align: left;
+}
+.login-form{
+    margin: auto; /* Centering the form */
+
+}
+button{
+    margin-left: 40%;
+}
+.login-model-header{
+    background-color: #FDBA01;
+}
+button.btn-link{
+    color: #fba3b4;
+    margin-left: -10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+  }
+  .modal-header .loginHeader {
+    font-family: 'Rubik Burned', system-ui;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.formControl:focus {
+    outline: none !important;
+    border-color: #FDBA01 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.02rem #FDBA01 !important; /* Change to your desired pink color */
+  }
+  .formControl:focus {
+    outline: none !important;
+    border-color: #FDBA01 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.04rem #FDBA01 !important; /* Change to your desired pink color */
+  }
+  button.btn-link-login{
+    color: #FDBA01;
+    margin-left: -10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+  }
+  button.buttonLog {
+    background-color: #FDBA01 !important; 
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+
+}

@@ -1,0 +1,63 @@
+label{
+    text-align: left;
+}
+.registration-form {
+       margin: auto; /* Centering the form */
+  }
+  
+  button.btn-link{
+    color: #fba3b4;
+    margin-left: -10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+  }
+  button.buttonReg {
+    background-color: #fba3b4 !important; 
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.account{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+
+}
+.logo{
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.modal-header{
+    background-color: #fba3b4;
+
+}
+.modal-header .registrationHeader {
+    font-family: 'Rubik Burned', system-ui;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.form-label{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+
+}
+.form-select{
+  font-size: 14px;
+}
+
+select.form-select option.optionValue {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+  }
+#login-input:focus {
+    outline: none !important;
+    border-color: #fba3b4 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.02rem #fba3b4 !important; /* Change to your desired pink color */
+  }
+  .form-select:focus {
+    outline: none !important;
+    border-color: #fba3b4 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.04rem #fba3b4 !important; /* Change to your desired pink color */
+  }
+ 

@@ -1,0 +1,12 @@
+i {
+    color: rgb(7, 45, 101);
+    font-size: 60px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 90px;
+}
+
+.list-item span{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}

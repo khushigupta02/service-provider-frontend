@@ -1,0 +1,192 @@
+.view-full-history-detail-btn {
+    background-color: rgb(7, 45, 101);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 20px;
+}
+
+.view-full-history-detail-btn:hover {
+    background-color: #fdba01;
+    color: white;
+}
+
+.page-link {
+    border-radius: 50%;
+    width: 35px;
+    /* Adjust the size of the circle */
+    height: 35px;
+    /* Adjust the size of the circle */
+    text-align: center;
+    padding: 0;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.disabled-button {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+}
+
+.prev-next-button {
+    color: rgb(1, 37, 62);
+    background-color: white;
+    border: none;
+
+}
+
+
+/* Additional CSS for disabled previous and next buttons */
+.pagination .page-item.disabled .page-link {
+    background-color: white;
+    border: none;
+    padding: 18px 16px 30px 30px;
+    /* Adjust padding as needed */
+
+    color: black;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: white;
+    color: red;
+
+}
+
+/* Custom styles for active page number */
+.pagination .page-item.active .page-link {
+
+    background-color: #f53333;
+    /* Change to your desired color */
+    color: #ffffff;
+    /* Change to your desired text color */
+    border-color: #fdba01;
+    /* Change to your desired border color */
+}
+
+/* Remove circle styles */
+.pagination .page-item .page-link {
+    text-align: center;
+    padding: 8px 12px;
+    /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f53333;
+    /* Change to your desired color */
+}
+
+.pagination .page-item {
+    display: inline-block;
+
+    margin-right: 5px;
+    /* Adjust the space between page numbers */
+}
+
+/* .history-model-header{
+    background-color: #f53333;
+}
+.history-header-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+.history-model-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 17px;
+    color: rgb(1, 37, 62);
+    font-weight: 700;
+
+} */
+.history-card {
+    color: black;
+}
+
+.history-cont {
+    width: 89%;
+
+}
+
+.history-cont p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+
+}
+
+.card-request-sent {
+    background-color: #d1e2f65b;
+    color: black;
+}
+
+.btn-status-history {
+    float: right;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    border-radius: 24px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.btn-status-history:hover {
+    background-color: rgb(7, 45, 101);
+    color: white;
+
+}
+
+.card-done {
+    background-color: #e8fce69a;
+}
+
+.card-service-name-hist {
+    font-size: 14px;
+    color: rgb(7, 45, 101);
+    font-weight: 700;
+}
+
+.card-review-done {
+    background-color: rgba(255, 215, 200, 0.29);
+
+}
+.card-scheduled{
+    background-color: #dac5ff60;
+
+}
+.card-rescheduled{
+    background-color: #f9bff64f; /* Teal color for RESCHEDULED status */
+
+}
+.card-rebook-request-sent {
+    background-color: rgba(255, 239, 182, 0.382);
+
+}
+.card-ongoing{
+    background-color: #fae5bb6c; /* Deep orange color for ONGOING status */
+
+}
+.card-cancel-by-user{
+    background-color: #ffcacf56;
+}
+.card-accepted{
+    background-color: #8dfbbc4c;
+
+}
+.card-confirmed{
+    background-color: #d6f1fb5c;
+
+}
+.card-cancelled-by-provider{
+    background-color: rgba(255, 213, 213, 0.41);
+
+}

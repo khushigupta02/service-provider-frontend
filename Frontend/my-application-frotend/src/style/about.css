@@ -1,0 +1,302 @@
+.about-banner {
+    background-image: url("../assets/images/a4.png");
+    height: 77vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-banner-text{
+    /* font-family: 'Alegreya', serif;     */
+    font-family: 'Amatic SC', sans-serif;
+
+    text-transform: uppercase;    
+    color: white;
+    font-weight: 900;
+    font-size: 73px;
+    text-align: center;
+}
+.about-banner-content{
+    padding: 45px 650px 20px 60px;
+}
+.about-banner-description{
+    color: rgb(205, 37, 37);
+    text-align: center;
+    font-family: 'Alegreya', serif;    
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.about-card-container{
+    padding: 20px 60px 20px 60px;
+}
+.about-card{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 40px;
+}
+.rounded-circle-container {
+    display: flex;
+    padding-bottom: 20px;    
+}
+.rounded-circle {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.content {
+    flex-grow: 1; 
+}
+.about-card-heading{
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(7, 45, 101);
+}
+.about-card-text-para{
+    color: rgb(107, 106, 106);
+    font-size: 14px;
+}
+
+.about-mission-heading{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(7, 45, 101);
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    padding: 20px 130px 20px 130px;
+
+}
+.about-mission-para{
+    color: rgb(107, 106, 106);
+    padding: 1px 100px 20px 100px;
+    line-height: 30px;
+}
+.red {
+    background: linear-gradient(#6AC27C, #91E890);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    z-index: -1; 
+  }
+  
+  .box {
+    position: relative;
+    border-radius: 2px;
+
+  }
+  
+  .image {
+    position: absolute;
+    top: 1430px; 
+    left: 150px; 
+    z-index: 1; 
+    width: 41%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .content{
+    margin-left: 80px;
+  }
+  .quote::before {
+    content: "\201C"; 
+    font-size: 105px; 
+    font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+    font-weight: 600;
+    color: #6AC27C;
+  }
+  
+  /* .quote {
+    display: flex;
+  } */
+
+.mission-heading{
+    margin-top: -90px;
+    margin-left: -280px;
+}
+
+.mission-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 200;
+    color: rgb(7, 45, 101);
+}
+.mission-text{
+    color: rgb(107, 106, 106);
+    padding: 1px 10px 20px 0px;
+    line-height: 30px;
+}
+.value-card1 {
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color:#D5CDEA;
+    border: 2px solid #ccb9fb;
+}
+.value-card1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.value-card2 {
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color:#F9D8D6;
+    border: 2px solid #e6bfbd;
+
+}
+.value-card2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.value-card3 {
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color:#CDF5F5;
+    border: 2px solid #b1e2e2;
+}
+.value-card3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.value-card4 {
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color:#EFF9DA;
+    border: 2px solid #cedcb0;
+}
+.value-card4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.value-card5 {
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+    background-color:#CBE4F9;
+    border: 2px solid #b0d0ea;
+}
+.value-card5:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card h5{
+    font-family: 'Russo One', sans-serif;
+    color: rgb(10, 10, 59)
+
+}
+.card p{
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+.our-value {
+    text-align: right;
+}
+.value-card {
+    position: relative;
+    padding: 10px 30px 10px 40px;
+    box-shadow: rgba(242, 242, 245, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+}
+
+.value-card::before,
+.value-card::after {
+    content: '';
+    position: absolute;
+    border: 2px solid #dddada;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.value-card::before {
+    top: -15px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+}
+
+.value-card::after {
+    bottom: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Hover effect */
+.value-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.why-choose-us-main{
+    padding: 0%;
+}
+.why-choose-us{
+    padding: 0%;
+}
+.why-choose-us .row{
+    padding: 0%;
+}
+.why-choose-point1{
+    background-color: #F8D502;
+    padding: 30px 40px 33px 55px;
+}
+.col-first{
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.col-first1{
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.wcu-h{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.wcu-p{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+
+}
+.why-choose-point2{
+    background-color: #F1F1F1;
+    padding: 23px 40px 17px 55px;
+}
+.wcu1-h{
+    color: #5B732F;
+}
+.wcu1-p{
+    color: #5B732F;
+}
+
+.col-second{
+    margin-right: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
+.col-second1{
+    margin-left: 0%;
+    padding-left: 0%;
+    background-color: #F1F1F1;    
+}
+
+.why-choose-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #5B732F;
+    font-size: 53px;
+    line-height: 49px;
+}
+.why-choose-para{
+    color: #5B732F;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    font-weight: 00;
+}

@@ -1,0 +1,66 @@
+.service-detail-link{
+    cursor: pointer;
+    font-size: 16px;
+}
+.service-detail-link:hover{
+    color: red;
+}
+.view-service-detail-btn{
+background-color: #FDBA01;
+color: white;
+font-family: "Noto Sans", sans-serif;
+font-size: 13px;
+font-style: italic;
+}
+.book-service-detail-btn{
+    background-color: rgb(7, 45, 101);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+.book-service-detail-btn:hover{
+    background-color: #FDBA01;
+    color: white;
+}
+.booked-service-btn-status{
+    border: 1px solid  rgb(7, 45, 101);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+
+}
+.booked-service-btn-status:hover{
+    background-color: rgb(7, 45, 101);
+    color: white;
+
+}
+.view-service-detail-btn:hover{
+    background-color: rgb(7, 45, 101);
+    color: white;
+}
+
+.search-box{
+    float: right;
+
+}
+.sortButton{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    background-color: #FDBA01;
+    color: white;
+
+}
+.sortButton:hover{
+    background-color: rgb(7, 45, 101);
+    color: white;
+}
+#dropdown-menu{
+    background-color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#dropdown-menu li button:hover{
+    background-color: rgb(241, 241, 241);
+    color:red;
+}

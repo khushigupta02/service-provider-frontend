@@ -1,0 +1,91 @@
+.service-req-provider-details-section{
+    position: relative;
+    padding-top: 20px; /* add some space for the red bar */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+    border-radius: 6px;
+    z-index: -1;
+    width: 95%;
+}
+
+.service-req-provider-details-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 82px; 
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color:  rgb(7, 45, 101);
+    width: 100%;
+    z-index: -1;
+}
+
+.provider-avatar {
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+  
+  .provider-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .profiler-header-content{
+    padding-top: 20px;
+    margin-left: -10px;
+  }
+  .provider-name-req-page{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .provider-name-req-pag-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: lowercase;
+    color: #fbec99;
+  
+  }
+  .stat-box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.stat-value-provider{
+   color:  rgb(7, 45, 101);
+   font-family: "Noto Sans", sans-serif;
+   font-size: 19px;
+   font-weight: 600;
+}
+.icon-on-provider-profile{
+    color: #F8D502;
+    font-size: 18px;
+}
+.social-main-icon{
+    text-align: center;
+    margin-top: -40px;
+}
+  
+.provider-info-box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 28vh;
+}
+.provier-service-info-box {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.label-provider-info{
+    color:  rgb(7, 45, 101);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.label-provider-info-value{
+    color: #7b7b7b;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.table-row-service-detail{
+    border-bottom: 1px solid #f8d30278;
+}

@@ -1,0 +1,50 @@
+.table-heading{
+    background-color: rgb(0, 46, 78);
+    color: white;
+    padding-top: 60px;
+    border-radius: 30px;
+
+}
+tbody, td, tfoot, th, thead{
+padding: 10px;
+margin-top: 55px;
+margin-bottom: 5px;
+
+}
+
+thead{
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+table{
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+
+
+}
+td{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+}
+
+.table-heading th:first-child {
+    border-top-left-radius: 10px; 
+}
+
+.table-heading th:last-child {
+    border-top-right-radius: 10px; 
+}
+.even-row {
+    background-color: #f2f2f2; /* Set the background color for even rows */
+  }
+  
+  .odd-row {
+    background-color: #ffffff; /* Set the background color for odd rows */
+  }
+  .status{
+   color: rgb(255, 0, 0);
+   font-weight: 600;
+
+  }

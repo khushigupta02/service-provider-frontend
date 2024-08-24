@@ -1,0 +1,42 @@
+.service-provider{
+    background-color: white;
+}
+.home-service-provider-card .img-top{
+    width: 37%;
+    height: 14vh;
+}
+.service-provider-name {
+    font-family: 'Russo One', sans-serif;
+    
+    text-decoration: none;
+    color: rgb(7, 45, 101);
+    font-size: 22px;
+}  
+.service-provider-service-name{
+    color: black;
+    font-size: 16px;
+}
+.fixed-service{
+    color: rgb(7, 45, 101);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+}
+.selected{
+    color: #FF6088;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Hind", sans-serif;
+}
+.btnServiceProvider {
+    background-color: #FF6088;
+    padding: 13px 25px 13px 25px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btnServiceProvider:hover {
+    background-color: black;
+    color: white;
+}

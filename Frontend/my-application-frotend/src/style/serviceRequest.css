@@ -1,0 +1,181 @@
+.status-change-box{
+    border: 1px solid rgb(231, 228, 228);
+}
+.service-request-cont{
+    width: 89%;
+}
+.status-btn-inservice-req{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+.service-request-box{
+    border: 1px solid rgb(231, 228, 228);
+
+}
+.form-label{
+    font-size: 13px;
+}
+.form-textarea{
+    font-size: 13px;
+}
+.option-status-menu{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.option-status-menu .dropdown-item{
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.option-status-menu .dropdown-item:hover{
+    background-color: rgba(1, 37, 62, 0.154)
+}
+.status-select{
+    width: 80%;
+}
+.btn-group button{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    padding:5px 9px 5px 9px;
+
+}
+.btn-update-status-for-request{
+    font-size: 13px;
+    background-color:  rgb(7, 45, 101);
+    color: white;
+
+}
+.btn-update-status-for-request:hover{
+    color: white;
+    background-color: #FDBA01;
+
+}
+.reuqust-head{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(7, 45, 101);
+}
+.requesting-service{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 13px;
+    color: red;
+    font-weight: 500;
+}
+.requesting-service:hover{
+    cursor: pointer;
+}
+
+.notifaction-alert{
+    color: red;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.service-req-icon{
+    color:  #CCD4DD;
+    font-size: 16px;
+}
+.service-req-icon:hover{
+    color: red;
+}
+.servicename-request-page{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    float: right;
+    padding: 3px 12px 3px 12px;
+    border-radius: 20px;
+    color: white;
+}
+.servicename-request-page:hover{
+    background-color:  rgb(7, 45, 101);
+    color: white;
+}
+.service-req-title{
+    font-size: 13px;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.service-req-title{
+    cursor: pointer;
+}
+.service-req-title:hover{
+    color: red;
+}
+.customer-details-request{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(7, 45, 101);
+}
+.service-para{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+
+
+  
+  .user-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .user-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .userinfo-req:hover{
+    cursor: pointer;
+  }
+  .service-req-user-details-section {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Center horizontally */
+    padding-top: 20px; /* add some space for the red bar */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.service-req-user-details-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 52px; 
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color:  rgb(7, 45, 101);
+    width: 100%;
+    z-index: -1;
+}
+
+.user-avatar {
+    flex: 1;
+}
+.username-req-page{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    color: red;
+    font-weight: 600;
+}
+.mod-service-req{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:  rgb(7, 45, 101);
+
+}
+.modification-section {
+    float: right;
+}
+.highlited-red{
+    color: red;
+    font-weight: 500;
+    font-size: 14px;
+}

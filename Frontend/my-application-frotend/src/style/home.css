@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.textMain {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Rubik Burned', system-ui;
+}
+
+.paraMain {
+    color: rgb(208, 93, 183);
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+}
+.about-container{
+    background-color: rgb(7, 45, 101);
+    /* background-image: url('../../src/assets/images/houseimg.png');  */
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 150px; 
+
+    overflow: hidden; 
+    padding: 0; 
+}
+.about-inside-container{
+background-color: white;
+border-top-left-radius: 500px;
+
+}
+.homeBanner {
+    padding: 0;
+    margin: 0;
+}
+
+.bannerImg {
+    width: 100%;
+    border-bottom-left-radius: 85%;
+    border-top-left-radius: 2px;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-content {
+    padding: 150px 40px 30px 52px;
+
+}
+
+.banner-top {
+    /* font-family: 'Sevillana', cursive; */
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(7, 45, 101);
+}
+
+.banner-title {
+    /* font-family: 'Sevillana', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 52px;
+    color: red;
+}
+
+.banner-subtitle {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(7, 45, 101);
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:900");
+
+svg {
+    width: 17vw;
+    position: fixed;
+    top: 50vh;
+    left: 16vw;
+    max-width: 200px;
+    transform: translateY(-10%) translateX(-100%);
+    z-index: 2;
+    filter: drop-shadow(0 0 40px rgba(0, 0, 0, 0.3));
+    path {
+        cursor: pointer;
+        animation: blob 2s infinite forwards;
+        transform-origin: 50% 50%;
+        color: red;
+        &:hover {
+            fill: #a51f1f;
+        }
+    }
+
+    text {
+        font-size: 45px;
+    }
+}
+
+@keyframes blob {
+    25% {
+        d: path(
+            "M 90 210 C 90 180 110 160 130 160 C 160 160 180 140 200 130 C 230 120 270 100 290 140 C 310 170 340 100 360 140 C 370 160 390 180 390 210 C 390 240 380 290 350 280 C 330 270 300 280 280 290 C 260 300 230 300 220 290 C 200 270 160 310 140 280 C 130 260 90 240 90 210 "
+        );
+        transform: rotate(-5deg);
+    }
+    50% {
+        d: path(
+            "M 90 210 C 90 180 100 150 120 130 C 150 100 180 140 200 130 C 230 120 270 100 290 140 C 300 160 330 130 360 140 C 390 150 390 180 390 210 C 390 240 380 300 350 280 C 330 270 320 230 280 260 C 260 280 220 310 200 290 C 180 270 160 280 140 280 C 110 280 90 240 90 210"
+        );
+    }
+    75% {
+        d: path(
+            "M 90 210 C 90 180 110 180 130 170 C 150 160 170 130 200 130 C 240 130 260 150 290 140 C 310 130 340 120 360 140 C 380 160 390 180 390 210 C 390 240 380 260 350 270 C 320 280 290 270 270 260 C 240 250 230 280 210 290 C 180 310 130 300 110 280 C 90 260 90 240 90 210"
+        );
+        transform: rotate(5deg);
+    }
+} */
+
+
+.brk-btn {
+    position: relative;
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0.2em solid red;
+    font-family: 'Russo One', sans-serif;
+    padding: 0.5em 1em;
+    transition: color 0.3s ease, border-color 0.3s ease;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 10%;
+        background: #222;
+        height: 0.3em;
+        right: 20%;
+        top: -0.21em;
+        transform: skewX(-45deg);
+        transition: right 0.3s ease;
+
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 10%;
+        background: #222;
+        height: 0.3em;
+        left: 20%;
+        bottom: -0.25em;
+        transform: skewX(45deg);
+        transition: left 0.3s ease;
+    }
+
+    &:hover {
+        color: #fff;
+        /* Change the color on hover */
+        border-color: #fff;
+        /* Change the border color on hover */
+
+        &::before {
+            right: 80%;
+        }
+
+        &::after {
+            left: 80%;
+        }
+    }
+}
+
+.all-home-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(7, 45, 101);
+}
+
+.about-text {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(107, 106, 106);
+    line-height: 30px;
+    padding: 0px 105px 30px 105px;
+}
+
+.about-image {
+    width: 65%;
+    height: 60vh;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btnAbout {
+    background-color: red;
+    padding: 13px 25px 13px 25px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btnAbout:hover {
+    background-color: black;
+    color: white;
+}
+
+.home-service {
+    background-color: rgb(248, 248, 248);
+}
+
+.home-service .card {
+    height: 60vh;
+    width: 87%;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.home-service-card1 {
+    background-color: #9190D3;
+}
+
+.home-service-card1:hover {
+    transform: scale(1.05);
+    background-color: #bebdf7;
+    color: black;
+}
+
+.home-service-card2:hover {
+    transform: scale(1.05);
+    background-color: #fba3b4;
+    color: black;
+}
+
+.home-service-card3:hover {
+    transform: scale(1.05);
+    background-color: #ffd57b;
+    color: black;
+}
+
+.home-service-card2 {
+    background-color: #FC6382;
+
+}
+
+.home-service-card3 {
+    background-color: #FEAF00;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 23px;
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+}
+
+.get-in-touch {
+    background: linear-gradient(to right, #718497, #3f4c6b);
+    text-align: center;
+    padding: 60px 200px 60px 200px;
+}
+
+.get-in-touch-text {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 800;
+    line-height: 45px;
+    color: white;
+}
+
+.book-now-btn {
+    background-color: rgb(245, 197, 77);
+    color: white;
+    padding: 13px 30px 13px 30px;
+    border-radius: 40px;
+}
+
+.book-now-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.home-contact {
+    background-image: url("../assets/images/contactt.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.home-contact-form {
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 70px 60px 70px 60px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.contact-heading{
+    font-family: 'Russo One', sans-serif;
+    color: rgb(7, 45, 101);
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0px 190px 15px 0px;
+    line-height: 60px;
+}
+.contact-text{
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 900;
+}
+.btn-contact-send{
+    background-color: rgb(7, 45, 101);
+    color: white;
+}
+.btn-contact-send:hover{
+background-color: black;
+color: white;
+}
+
+.home-our-service-container{
+    background-color: #F5F8FA;
+}

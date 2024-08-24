@@ -1,0 +1,42 @@
+.status-icon-color-done {
+  color: #19ac4d;
+  }
+  
+  .status-icon-color-review-done {
+   color: rgb(255, 127, 81);
+  }
+  
+  .status-icon-color-rebook-request-sent {
+   color: rgb(241, 193, 18);
+  }
+  .status-icon-color-cancel-by-user{
+   color: #dc3545;
+
+  }
+  .status-icon-color-request-sent{
+   color: #007bff;
+
+  }
+  .status-icon-color-accepted{
+   color: #2E8B57;
+
+  }
+  .status-icon-color-scheduled{
+    color: #673ab7; 
+
+  }
+  .status-icon-color-rescheduled{
+   color: #d308c9d3;
+
+  }
+  .status-icon-color-ongoing{
+   color: #ffaa0d; 
+
+  }
+  .status-icon-color-confirmed{
+    color: #10bafc;
+
+  }
+.status-icon-color-cancelled-buprovider{
+ color: red;
+}

@@ -1,0 +1,104 @@
+
+  
+  .statistics-section {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+  }
+  
+  .stat-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    min-width: 150px;
+    text-align: center;
+  }
+  .stat-item{
+    cursor: pointer;
+  }
+  .total-users-icon{
+    background-color: #EFECFD;
+ 
+  }
+  .total-users-icon .stats-icon{
+    color: #9084F3;
+  }
+  .total-customer-rating{
+    background-color: #FCEAE9;
+  }
+  .total-customer-rating .stats-icon{
+    color: #EF7C7D;
+  }
+  .total-completion{
+background-color: #E4F7ED;
+  }
+  .total-completion .stats-icon{
+    color: #2AC66F;
+  }
+  .total-request{
+    background-color: #fff7c9;
+      }
+      .total-request .stats-icon{
+        color: #F3D522;
+      }
+  .total-service{
+    background-color: #E0F9FB;
+  }
+  .total-service .stats-icon{
+    color: #0CCDE5;
+  }
+  .stats-icon{
+    text-align: center;
+    font-size: 18px;
+  }
+  .stats-content{
+    text-align: left;
+    margin-left: 6px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+
+  .active-users-icon {
+    background-size: cover;
+  }
+  
+  .inactive-users-icon {
+    background-size: cover;
+  }
+  
+  .new-signups-icon {
+    background-size: cover;
+  }
+  
+  .frequent-users-icon {
+    background-size: cover;
+  }
+  
+  .stat-value {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(7, 45, 101);
+    display: block;
+  }
+  
+  .stat-label {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;    
+    color: #8c8c8c;
+  }
+  
+  .updated-time {
+    text-align: right;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 20px;
+  }
+  

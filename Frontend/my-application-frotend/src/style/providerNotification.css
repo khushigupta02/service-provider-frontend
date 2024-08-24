@@ -1,0 +1,65 @@
+.notification-item {
+    border-bottom: 1px solid rgb(229, 229, 229);
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+.notification-cont{
+    width: 89%;
+}
+
+.notification-box {
+    background-color: #ffffff64;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+}
+
+.date-show-request {
+    float: right;
+    color: rgb(136, 134, 134);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+
+}
+.btn-username-notification{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    padding: 3px 8px 3px 8px;
+}
+.btn-username-notification:hover{
+    background-color: rgb(7, 45, 101);
+    color: white;
+}
+.notifiction-comment{
+    font-family: "Noto Sans", sans-serif;
+    color: rgba(1, 0, 0, 0.845);
+    font-size: 13px;
+}
+.notification-serviceName{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(7, 45, 101);
+}
+.notification-customer-name{
+    color: #F94C4B;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    float: right;
+
+}
+.notification-item:hover{
+    cursor: pointer;
+}
+.cancel-icon{
+    font-size: 26px;
+    font-weight: 300;
+    color: rgb(145, 145, 145);
+}
+.cancel-icon:hover{
+    cursor: pointer;
+    color: red;
+}

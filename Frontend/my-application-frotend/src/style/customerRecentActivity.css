@@ -1,0 +1,81 @@
+.recent-activity-box {
+    background-color: #ffffff64;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .activity-icon {
+    font-size: 26px;
+    width: 50px; /* Equal width and height */
+    height: 50px; /* Equal width and height */
+    border-radius: 50%; /* Make it circular */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19ac4d; /* Default background color */
+  }
+  
+  .activity-item {
+    border-bottom: 1px solid rgb(233, 233, 233);
+  }
+  
+  .activity-item:hover {
+    cursor: pointer;
+  }
+  
+  .status-icon-done {
+    background-color: #19ac4d;
+  }
+  
+  .status-icon-review-done {
+    background-color: rgb(255, 127, 81);
+  }
+  
+  .status-icon-rebook-request-sent {
+    background-color: rgb(241, 193, 18);
+  }
+  .status-icon-cancel-by-user{
+    background-color: #dc3545;
+
+  }
+  .status-icon-request-sent{
+    background-color: #007bff;
+
+  }
+  .acitvities-list-status {
+    float: right;
+  }
+  .status-icon-accepted{
+    background-color: #2E8B57;
+
+  }
+  .status-icon-scheduled{
+    background-color: #673ab7; 
+
+  }
+  .status-icon-rescheduled{
+    background-color: #d308c9d3;
+
+  }
+  .status-icon-ongoing{
+    background-color: #ffaa0d; 
+
+  }
+  .status-icon-confirmed{
+    background-color: #10bafc;
+
+  }
+.status-icon-cancelled-buprovider{
+  background-color: red;
+}
+  .status-btn-recent-activity {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 12px 7px 12px;
+  }
+  

@@ -1,0 +1,114 @@
+.edit-heading {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(7, 45, 101);
+    letter-spacing: -1px;
+   
+}
+.edit-heading-row{
+  margin-top: 36px;
+}
+.edit-subheadeing{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(7, 45, 101);
+    letter-spacing: -1px;
+}
+.edit-subheadeing-for-service{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(7, 45, 101);
+  letter-spacing: -1px;
+}
+.profile-image-on-page {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    cursor: pointer;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Prevents the image from stretching */
+    float: right;
+}
+.edit-profile-container
+{
+    width: 70%;
+    padding-bottom: 5%;
+}
+.form-control:focus {
+    outline: none !important;
+    border-color: #FDBA01 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.02rem #FDBA01 !important; /* Change to your desired pink color */
+  }
+  .form-control {
+    font-family: "Noto Sans", sans-serif; /* Apply font-family to the input */
+    font-size: 14px;
+  }
+
+  .stdropdown-container .stsearch-box input{
+    border: none;
+    font-family: "Noto Sans", sans-serif; /* Apply font-family to the input */
+    font-size: 14px;
+    height: 2.2vh;
+
+  } 
+.edit-profile-container .stdropdown-container{
+    border: 1px solid #DEE2E6;
+}
+.edit-gender:focus{
+    outline: none !important;
+    border-color: #FDBA01 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.02rem #FDBA01 !important; 
+  }
+  .edit-gender{
+    font-family: "Noto Sans", sans-serif; /* Apply font-family to the input */
+    font-size: 14px;
+  }
+  .stdropdown-container .stsearch-box input:focus{
+    outline: none !important;
+  }
+  .eye-icon {
+    position: absolute;
+    right: 10px; /* Adjust the value based on your preference */
+    top: 76%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .form-textarea {
+    width: 100%; /* Set the width to 100% of its container */
+    border: 1px solid #DEE2E6;
+    border-radius: 5px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .form-textarea:focus{
+    outline: none !important;
+    border-color: #FDBA01 !important; /* Change to your desired pink color */
+    box-shadow: 0 0 0 0.02rem #FDBA01 !important; 
+  }
+  .update-btn{
+    background-color: #082D64;
+    color: white;
+    font-size: 13px;
+  }
+  .update-btn:hover{
+    background-color: black;
+    color: white;
+  }
+  .add-service-edit-profile-page .btn{
+    float: right;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    color: rgb(7, 45, 101);
+    font-weight: 600;
+    border: 1px solid rgb(7, 45, 101);
+  }
+  .add-service-edit-profile-page .btn:hover{
+    background-color: rgb(7, 45, 101);
+    color: white;
+  }
+  .add-service-edit-profile-page .icon-plus{
+    font-size: 10px;
+  }

@@ -1,0 +1,16 @@
+label{
+    text-align: left;
+}
+.serviceType-form{
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(250, 171, 192);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+button{
+    margin-left: 30%;
+}

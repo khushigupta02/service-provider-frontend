@@ -1,0 +1,37 @@
+.service-details-page{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+
+}
+.service-detail-header{
+    background-color: rgb(7, 45, 101);
+    height: 52px; 
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.service-heading-detail{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.label-provider-service-info{
+    color:  rgb(7, 45, 101);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.label-provider-service-value{
+    color: #7b7b7b;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.review-heading{
+    color:  rgb(7, 45, 101);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
