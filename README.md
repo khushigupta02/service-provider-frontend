@@ -1,4 +1,4 @@
-Service Provider Application
+# Service Provider Application
 
 This Service Provider Application is designed to manage household chores by connecting customers with service providers. The application consists of two main dashboards: one for customers and another for service providers. Both types of users can register, log in, and manage their profiles independently. The service providers can add, update, and delete the services they offer, while customers can browse and book these services based on their requirements.
 
@@ -45,14 +45,8 @@ After a service is completed, customers have the option to provide feedback on t
 8. Database
 All customer, service provider, and booking data is stored securely in a MySQL database.
 
-
-
-
 Tech Stack-
 - Frontend : ReactJS, Bootstrap, CSS, JavaScript
-
 - Backend : Java, Spring Boot, Spring Security (Session Management with JWT)
-
--Database : MySQL
-
--Tools : Postman (for API testing)
+- Database : MySQL
+- Tools : Postman (for API testing)
