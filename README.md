@@ -16,15 +16,15 @@ Features-
 3. Service Booking for Customers
 * Customers can browse available services and book a service from any service provider.
 * After booking, service providers can change the status of the booking request with various statuses such as:
-- Request Sent
-- Confirmed
-- Accepted
-- Scheduled
-- Rescheduled
-- Ongoing
-- Completed
-- Declined by Service Provider
-- Cancelled by Customer
+ - Request Sent
+ - Confirmed
+ - Accepted
+ - Scheduled
+ - Rescheduled
+ - Ongoing
+ - Completed
+ - Declined by Service Provider
+ - Cancelled by Customer
 
 4. Booking Management
 * Service providers have the ability to manage and update the status of the service requests.
